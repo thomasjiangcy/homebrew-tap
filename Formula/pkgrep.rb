@@ -1,22 +1,22 @@
 class Pkgrep < Formula
   desc "Dependency source cache helper for developers and coding agents"
   homepage "https://github.com/thomasjiangcy/pkgrep"
-  version "0.3.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/thomasjiangcy/pkgrep/releases/download/v0.3.0/pkgrep-v0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "774c27ef2ef41ccfd023ab57e4f563a73a000fbce5ba6fd2e576ace278de4ba6"
+      url "https://github.com/thomasjiangcy/pkgrep/releases/download/v0.2.0/pkgrep-v0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "b0d415f12051dc7d4770cdc5806c012cd9609cde0d2fa1b686146344ae077b9c"
     else
-      url "https://github.com/thomasjiangcy/pkgrep/releases/download/v0.3.0/pkgrep-v0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "dc1b483b263799d0dc9a8ba6c2ba17e3d7d34a9f7fd4fb747acfd4c74f6f06c2"
+      url "https://github.com/thomasjiangcy/pkgrep/releases/download/v0.2.0/pkgrep-v0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "1c4ca5432e851d18fc14b8e5b99c8200ec31dddfdfc58bfcae9a230f94fe33ee"
     end
   end
 
   on_linux do
-    url "https://github.com/thomasjiangcy/pkgrep/releases/download/v0.3.0/pkgrep-v0.3.0-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "02fbd8748abe74502f3e7fac994cc42ac8b43f54a46e0941fe9ab00944a536fa"
+    url "https://github.com/thomasjiangcy/pkgrep/releases/download/v0.2.0/pkgrep-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "aec6a3cf4e368c20f490750dd3cea41c09f9c150d40f4685e76813ca20794d55"
   end
 
   def install
